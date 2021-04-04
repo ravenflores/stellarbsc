@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(121, 26, 145);
+}
+
+.App-body {
+ color: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: rgb(121, 26, 145);
+}
+
+
+.App-token {
+  color: #f0f2f5;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  background-color: rgb(121, 26, 145);
+}
+
+.App-com {
+  background-color: #f0f2f5;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(121, 26, 145);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width:560px){
+  #nav-mobile{
+      visibility: hidden;
+  }
+  .brand-logo{
+    font-family: 'Grand Hotel', cursive;
+    margin-left: 38%;
+    
+  }
+  
+}
+@media only screen and (min-width:560px){
+  #sidenav-trigger{
+      visibility: hidden;
+  } 
+  .brand-logo{
+    font-family: 'Grand Hotel', cursive;
+    margin-left: 10px;
+    
+  }
+
+  
+}
